@@ -1,0 +1,135 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	color: #fff;
+}
+
+
+
+header{
+width: 100%;
+height: 500px;
+background-color: rgb(160,82,45);
+display: flex;
+}
+.banner{
+	width: 25%;
+	height: 500px;
+	border: 2px solid #A0522D;
+	text-align: center;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+h2{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.2);
+	box-sizing: border-box;
+	padding-top: 210px;
+	transition: 1s;
+	color: transparent;
+}
+
+h2:hover{
+	color: white;
+	cursor: pointer;
+	transition: 1s;
+	background-color: rgba(0,0,0,.7);
+}
+
+h1{
+	width: 80%;
+	height: 100%;
+	background-color: rgb(139,69,19);
+    box-sizing: border-box;
+    padding-top: 210px;
+    font-style: oblique;
+    
+}
+
+/*BANNERS PARA SLIDE*/
+.segundo{
+	animation: segundo_slide 10s infinite;
+	animation-direction: alternate;
+}
+
+.terceiro{
+	animation: terceiro_slide 8s infinite;
+	animation-direction: alternate;
+}
+.quarto{
+	animation: quarto_slide 6s infinite;
+	animation-direction: alternate;
+
+}
+/*SLIDES*/
+/* segundo_slide*/
+@keyframes segundo_slide {
+	0%, 30% {
+		background-image: url(../img/2C.jpg);
+		background-repeat: no-repeat;
+		background-size:500px;
+		background-position: 100%;
+	}
+	35%, 65% {
+		background-image: url(../img/lizha.jpg);
+		background-repeat: no-repeat;
+		background-size:500px;
+		background-position: 100%;
+	}
+	70%, 100% {
+		background-image: url(../img/anita.jpg);
+		background-repeat: no-repeat;
+		background-size:500px;
+		background-position: 100%;
+	}}
+/* Terceiro_slide*/
+
+@keyframes terceiro_slide {
+  0%, 30%{
+  	background-image: url(../img/lay.jpg);
+  	background-repeat: no-repeat;
+	background-size:500px;
+	background-position: 100%;
+  }
+   35%, 65%{
+  	background-image: url(../img/neyma.jpg);
+  	background-repeat: no-repeat;
+	background-size:695px;
+	background-position: 100%;
+  }
+   70%, 100%{
+  	background-image: url(../img/ac.jpg);
+  	background-repeat: no-repeat;
+	background-size:500px;
+	background-position: 100%;
+  }
+}
+/* QUARTO_SLIDE*/
+
+@keyframes quarto_slide {
+	0%, 30% {
+		background-image: url(../img/l.jpg);
+		background-repeat: no-repeat;
+		background-size: 500px;
+		
+	}
+	35%, 65% {
+		background-image: url(../img/dygo.jpg);
+		background-repeat: no-repeat;
+		background-size: 500px;
+		background-position: 100%;
+	}
+	70%, 100% {
+		background-image: url(../img/liloca.jpg);
+		background-repeat: no-repeat;
+		background-size: 500px;
+		background-position: 100%;
+	}
+}
