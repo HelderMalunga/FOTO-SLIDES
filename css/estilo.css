@@ -50,6 +50,7 @@ h1{
     box-sizing: border-box;
     padding-top: 210px;
     font-style: oblique;
+    text-align: center;
     
 }
 
@@ -74,20 +75,20 @@ h1{
 	0%, 30% {
 		background-image: url(../img/2C.jpg);
 		background-repeat: no-repeat;
-		background-size:500px;
-		background-position: 100%;
+		background-size:160%;
+		background-position: 60%;
 	}
 	35%, 65% {
 		background-image: url(../img/lizha.jpg);
 		background-repeat: no-repeat;
-		background-size:500px;
-		background-position: 100%;
+	    background-size:160%;
+		background-position: 60%;
 	}
 	70%, 100% {
 		background-image: url(../img/anita.jpg);
 		background-repeat: no-repeat;
-		background-size:500px;
-		background-position: 100%;
+	    background-size:160%;
+		background-position: 60%;
 	}}
 /* Terceiro_slide*/
 
@@ -95,20 +96,20 @@ h1{
   0%, 30%{
   	background-image: url(../img/lay.jpg);
   	background-repeat: no-repeat;
-	background-size:500px;
-	background-position: 100%;
+    background-size:200%;
+	background-position: 60%;
   }
    35%, 65%{
   	background-image: url(../img/neyma.jpg);
   	background-repeat: no-repeat;
-	background-size:695px;
-	background-position: 100%;
+	  background-size:270%;
+	background-position: 60%;
   }
    70%, 100%{
   	background-image: url(../img/ac.jpg);
   	background-repeat: no-repeat;
-	background-size:500px;
-	background-position: 100%;
+	  background-size:200%;
+	background-position: 60%;
   }
 }
 /* QUARTO_SLIDE*/
@@ -123,13 +124,91 @@ h1{
 	35%, 65% {
 		background-image: url(../img/dygo.jpg);
 		background-repeat: no-repeat;
-		background-size: 500px;
-		background-position: 100%;
+		background-size:198%;
+		background-position: 60%;
 	}
 	70%, 100% {
 		background-image: url(../img/liloca.jpg);
 		background-repeat: no-repeat;
-		background-size: 500px;
-		background-position: 100%;
-	}
+		background-size:200%;
+		background-position: 60%;
 }
+}
+
+@media screen and (max-width: 1000px) {
+	header{height: 400px;width: 100%; font-size: .5rem }
+	.banner{
+		height: 400px;
+	}
+	.banner h1{
+		 padding-top: 180px;
+	}
+	.banner h2{
+		 padding-top: 180px;
+	}
+	@keyframes segundo_slide {
+	0%, 30% {
+		background-image: url(../img/2C.jpg);
+		background-repeat: no-repeat;
+		background-size:270%;
+		background-position: 50%;
+	}
+	35%, 65% {
+		background-image: url(../img/lizha.jpg);
+		background-repeat: no-repeat;
+	    background-size:270%;
+		background-position: 50%;
+	}
+	70%, 100% {
+		background-image: url(../img/anita.jpg);
+		background-repeat: no-repeat;
+	    background-size:270%;
+		background-position: 50%;
+	}}
+
+
+	@keyframes terceiro_slide {
+  0%, 30%{
+  	background-image: url(../img/lay.jpg);
+  	background-repeat: no-repeat;
+     background-size:350%;
+		background-position: 50%;
+  }
+   35%, 65%{
+  	background-image: url(../img/neyma.jpg);
+  	background-repeat: no-repeat;
+	   background-size:450%;
+	background-position: 60%;
+  }
+   70%, 100%{
+  	background-image: url(../img/ac.jpg);
+  	background-repeat: no-repeat;
+	   background-size:350%;
+	background-position: 60%;
+  }
+}
+
+@keyframes quarto_slide {
+	0%, 30% {
+		background-image: url(../img/l.jpg);
+		background-repeat: no-repeat;
+		background-size: 500px;
+		
+	}
+	35%, 65% {
+		background-image: url(../img/dygo.jpg);
+		background-repeat: no-repeat;
+		background-size:350%;
+		background-position: 60%;
+	}
+	70%, 100% {
+		background-image: url(../img/liloca.jpg);
+		background-repeat: no-repeat;
+		background-size:360%;
+		background-position: 60%;
+}
+}
+
+
+}
+
